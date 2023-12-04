@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="titulo">
+            <div>
+                <div class="icono">
+                    <img src="images/assets/leaf.png" alt="leaf">
+                </div>
+                <h1>EasyBay</h1>
+            </div>
+            <div id="input">
+                <input type="search" name="Search" placeholder="Search for anything" class="search">
+                <img src="images/assets/search-dark.png" alt="search">
+            </div>
+            <button>Sign In</button>
+            <img src="images/assets/cart-dark.png" alt="carro" onclick="alert('Your cart is empty')">
+        </nav>
+        <nav class="enlaces">
+            <ul>
+                <li><a href="#">Aeonium</a></li>
+                <li><a href="#">Andormischus</a></li>
+                <li><a href="#">Agave</a></li>
+                <li><a href="#">Aloe</a></li>
+                <li><a href="#">Anacampseros</a></li>
+                <li><a href="#">Aristaloe</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2> Your Source for Serious Succulent Specialties</h2>
+        <div class="principal">
+            <aside class="caja1">
+                <figure class="cajita1">
+                    <div>
+                        <p>Discover succulent varieties one pot or rack at a time!
+                        </p>
+                        <div id="discover">
+                            <p>Discover</p>
+                            <img src="images/assets/arrow-light.png" alt="arrow" class="arrow">
+                        </div>
+                    </div>
+                    <img onmouseover="cambia_imagen(this)" onmouseout="regresa_imagen(this)" src="images/assets/succulents-1.jpg" alt="succulents1" class="bigsuculenta">
+                </figure>
+                <figure class="cajita2">
+                    <img src="images/assets/aloe-m.jpg" alt="aloe" class="aloe">
+                    <div>
+                        <p>Soothing aloe</p>
+                        <img src="images/assets/arrow-light.png" alt="arrow" class="arrow">
+                    </div>
+                </figure>
+            </aside>
+            <aside class="caja2">
+                <div class="tinybox">
+                    <img src="images/assets/aeonium-s.jpg" alt="Aeonium" class="suculenta">
+                    <p>Aeonium</p>
+                </div>
+                <div class="tinybox">
+                    <img src="images/assets/aloe-s.jpg" alt="Aloe" class="suculenta"> 
+                    <p>Aloe</p>
+                </div>
+                <div class="tinybox">
+                    <img src="images/assets/cactus-s.jpg" alt="Cactus" class="suculenta">
+                    <p>Cactus</p>
+                </div>
+                <div class="tinybox">
+                    <img src="images/assets/echeveria-s.jpg" alt="Echeveria" class="suculenta">
+                    <p>Echeveria</p>
+                </div>
+                <div class="tinybox">
+                    <img src="images/assets/sedum-s.jpg" alt="Sedum" class="suculenta">
+                    <p>Sedum</p>
+                </div>
+                <div class="tinybox">
+                    <img src="images/assets/sempervivum-s.jpg" alt="Sempervivum" class="suculenta">
+                    <p>Sempervivum</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="cookies">
+            <img src="images/assets/alert-dark.png" alt="alert">
+            <div class="text">
+                <p>This site makes use of third-party cookies, by clicking "I accept" your agree to the</p>
+                <p>terms outlined in our <a href="#">cookie policy</a>.</p>
+            </div>
+            <button onclick="eliminar_cookies()">I accept</button>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

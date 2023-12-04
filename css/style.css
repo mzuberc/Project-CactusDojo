@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*-----------------HEADER-----------------*/
+
+header {
+    width: 1250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*-----NAV style----*/
+
+.titulo {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.enlaces {
+    width: 1250px;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+
+}
+
+.enlaces ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.enlaces ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+/*----NAV.titulo----*/
+
+.icono {
+    background-color: #01c4bc;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+
+h1 {
+    font-size: 34px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+
+.titulo button {
+    width: 50px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.titulo img {
+    width: 38px;
+}
+
+.titulo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#input img {
+    width: 25px;
+    position: absolute;
+    margin-left: 765px;
+    margin-top: 6px;
+}
+
+.search {
+    width: 800px;
+    border-radius: 39px 39px 39px 39px;
+    border: 1px solid #b7b7b7;
+    text-align: start;
+    padding: 5px 30px;
+}
+
+
+/*------------------MAIN------------------*/
+
+main {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 25px;
+    margin-left: 190px;
+}
+
+.principal {
+    margin: 0px 15px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+aside {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----Caja1----*/
+/*--cajita1--*/
+.cajita1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita1 div{
+    background-color: #01c4bc;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cajita1 p{
+    color: white;
+    font-size: 30px;
+    padding: 35px;
+}
+
+#discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 18px;
+}
+
+.bigsuculenta{
+    width: 390px;
+    height: 390px;
+}
+
+.arrow {
+    width: 30px;
+}
+
+/*--cajita2--*/
+
+.aloe{
+    width: 450px;
+    height: 280px;
+}
+
+.cajita2 div {
+    background-color: #01c4bc;
+    margin-top: 19px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cajita2 p{
+    margin-left: 30px;
+    color: white;
+}
+
+/*----Caja2----*/
+
+.caja2 {
+    background-color: #b6edeb;
+    height: 300px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* align-items: center;*/
+}
+
+.suculenta {
+    width: 175px;
+    border-radius: 50%;
+}
+
+.tinybox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/*-----------------FOOTER-----------------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.cookies {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cookies img{
+    width: 60px;
+}
+
+.cookies button{
+    background-color: #01c4bc;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px 0px black;
+    padding: 2px 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.text p{
+    font-size: 23px;
+    padding: 5px;
+}
